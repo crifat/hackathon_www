@@ -1,0 +1,32 @@
+.form-control {
+	margin-top: 5px;
+}
+.container {
+	margin: 5px;
+}
+.submit {
+	margin-top: 20px;
+}
+header{
+	margin: 0 auto;
+	text-align: center;
+}
+header h4 {
+	font-weight: bolder;
+}
+.big {
+	height: 5em;
+	margin-top: 3em;
+}
+#map-canvas {
+	height: 100%;
+	width: 100%;
+}
+#heatmap {
+	padding: 0;
+    position : absolute !important; 
+    top : 40px !important;  
+    right : 0; 
+    bottom : 40px !important;  
+    left : 0 !important;    
+}

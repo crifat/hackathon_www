@@ -1,0 +1,52 @@
+<html>
+<head>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<!-- lol <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> -->
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=visualization"></script>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body> 	
+
+	<div class="container">
+		<div class="row">
+			<div class="first-page">
+				<header>
+					<h4>Feel Safe</h4>
+				</header>
+				<button id='quick-complain' class='form-control btn btn-danger'>Quick Complain (Mark this place)</button>
+				<button id='new-complain' class='form-control btn btn-info'>Post a new Comapin</button>
+				<button id='near-by-complains' class='form-control btn btn-info'>View Nearby Complains</button>
+				<button id='show-heatmap' class='form-control btn btn-info'>View Complain Map (Heatmap)</button>
+			</div>
+			<div id='quick-complain-form' class="quick-complain-form">
+				<header>
+					<h4>Mark This Place</h4>
+				</header>
+				<input id='quick-complain-title' type='text' class='form-control' placeholder='Subject (write only if you have chance)'>
+				<button id='post-quick-complain' class="form-control btn btn-danger big">Mark This Place!</button>
+			</div>
+			<div id='new-complain-form' class="new-complain-form">
+				<header>
+					<h4>Submit your Complain</h4>
+				</header>
+				<input type='text' class='form-control' placeholder='Your Name'>
+				<input type='text' class='form-control' placeholder='Subject'>
+				<textarea rows='8' type='text' class='form-control' placeholder='Details'></textarea>
+				<input type='text' class='form-control' placeholder='Location'>
+				<button class='form-control btn btn-success submit'>Submit Complain</button>
+			</div>
+			<div id="heatmap">
+				<!-- <div id="map-canvas">
+
+				</div> -->
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
